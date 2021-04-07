@@ -10,7 +10,7 @@ Projeyi VS Code'da açtıktan sonra, terminali üzerinde :
 
 `node app.js`
 
-Artık http://localhost:8080/notify url'ine gelecek bir post requestini terminal logunda görebilir durumdasınız.
+Artık http://localhost:8080/notify url'ine gelecek bir post requestini terminal logunda görebilir durumdasınız. Aşağıdaki JS kodu ile entegratore'e istek atabilir yada Postman Collectionunu inceleyebilirsiniz.
 
 ```javascript
 
