@@ -33,7 +33,7 @@ fetch('http://localhost:61/IntegratorService/Connect', {
             headers: {
                 'Idempotent-Key': 'inv-1',
                 'Call-Type': 'Async',
-                'Notify-Url': 'http://localhost:8080/notify'
+                'Notify-Url': 'http://localhost:8080/notify/inv-1'
             },
             body: JSON.stringify({
                 ProcName: "usp_SAMPLE_GetItemInventoryBulk"
