@@ -15,8 +15,9 @@ app.use(bodyParser.json());
 //
 // ─── ROUTES ─────────────────────────────────────────────────────────────────────
 //
-app.use('/notify', (req, res, next) => {
-    console.log(req.body)
+app.post('/notify/:key', (req, res, next) => {
+    console.log(req.params.key);
+    console.log(req.body);
 });
 
 // ────────────────────────────────────────────────────────────────────────────────
