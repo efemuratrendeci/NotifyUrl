@@ -6,7 +6,7 @@
 
 Projeyi VS Code'da açtıktan sonra, terminali üzerinde :
 
-`node -save install`
+`node --save install`
 
 `node app.js`
 
